@@ -1,0 +1,25 @@
+.task-input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.task-input {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.task-create-btn {
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #00A3FF;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.task-create-btn[disabled] {
+    background-color: #C4C4C4;
+    color: #000;
+    cursor: not-allowed;
+}
